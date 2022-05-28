@@ -1,19 +1,14 @@
 <template>
-  <nav>
-    <RouterLink to="/legal-terms">Legal Terms</RouterLink>
-    <LanguageSwitcher />
-  </nav>
+  <NavbarStateless />
 </template>
 
 <script>
-import { RouterView } from 'vue-router'
-
-import LanguageSwitcher from '../../Global/LanguageSwitcher/index.vue'
+import NavbarStateless from './NavbarStateless.vue'
 
 export default {
   name: 'Navbar',
   components: {
-    LanguageSwitcher
+    NavbarStateless
   }
 }
 </script>

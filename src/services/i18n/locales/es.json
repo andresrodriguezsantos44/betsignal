@@ -1,11 +1,10 @@
 {
-  "home": {
-    "title": "Casa"
-  },
-  "privacy_policy": {
-    "title": "Politica de privacidad"
-  },
-  "terms_conditions": {
-    "title": "Terminos y condiciones"
+  "home_navbar": {
+    "what_we_do": "Lo que hacemos",
+    "how_does_it_work": "¿Cómo funciona?",
+    "why_we": "¿Por qué nosotros?",
+    "payments": "Pagos",
+    "contact_us": "Contáctenos",
+    "legal_terms": "Términos legales"
   }
 }
