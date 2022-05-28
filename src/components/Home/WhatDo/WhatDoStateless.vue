@@ -17,7 +17,7 @@
       </div>
     </div>
 
-    <h2 class="h3 color-light underline-decoration pb-1 mb-4" id="whatDo">{{ $t('what_do.title') }}</h2>
+    <h2 class="h3 text-uppercase color-light underline-decoration pb-1 mb-4" id="whatDo">{{ $t('what_do.title') }}</h2>
 
     <p :class="`h2 color-light mb-4 text-center ${ isMobile ? 'full-width' : 'width-6' }`">
       {{ $t('what_do.subtitle_one') }} <span class="h2 color-secondary">{{ $t('what_do.subtitle_two') }}</span>

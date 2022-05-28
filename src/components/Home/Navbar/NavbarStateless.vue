@@ -14,7 +14,7 @@
       </div>
 
       <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#whatDo' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.what_we_do') }}</RouterLink>
-      <RouterLink @click="isMobile && handleShowNavbar()" to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.how_does_it_work') }}</RouterLink>
+      <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#howWork' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.how_does_it_work') }}</RouterLink>
       <RouterLink @click="isMobile && handleShowNavbar()" to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.why_we') }}</RouterLink>
       <RouterLink @click="isMobile && handleShowNavbar()" to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.payments') }}</RouterLink>
       <RouterLink @click="isMobile && handleShowNavbar()" to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.contact_us') }}</RouterLink>
