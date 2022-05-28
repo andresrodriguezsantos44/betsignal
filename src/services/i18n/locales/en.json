@@ -42,5 +42,16 @@
     "item_one": "Top trading platform",
     "item_two": "Secure payments",
     "item_three": "Easy to start trading"
+  },
+  "payments": {
+    "title": "Payments",
+    "subtitle": "Receive your payments in cryptocurrencies",
+    "text": "Send invoices, collect payments, convert payments to fiat currency, or hold cryptocurrency",
+    "title_item_one": "Instantly",
+    "text_item_one": "Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque, praesentium voluptates maxime aperiam, neque minus et!",
+    "title_item_two": "safe and insured",
+    "text_item_two": "Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque, praesentium voluptates maxime aperiam, neque minus et!",
+    "title_item_three": "Unlimited",
+    "text_item_three": "Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque, praesentium voluptates maxime aperiam, neque minus et!"
   }
 }

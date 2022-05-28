@@ -42,5 +42,16 @@
     "item_one": "Plataforma comercial superior",
     "item_two": "Pagos seguros",
     "item_three": "Fácil de comenzar a operar"
+  },
+  "payments": {
+    "title": "Pagos",
+    "subtitle": "Reciba sus pagos en criptomonedas",
+    "text": "Envé facturas, cobre pagos, convierta pagos a moneda fiduciaria o conserve la criptomoneda",
+    "title_item_one": "Instantáneamente",
+    "text_item_one": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius delectus odio fuga ducimus laboriosam at explicabo aut assumenda eligendi vitae eveniet cumque, praesentium voluptates maxime aperiam, neque minus et!",
+    "title_item_two": "Seguro y asegurado",
+    "text_item_two": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius delectus odio fuga ducimus laboriosam at explicabo aut assumenda eligendi vitae eveniet cumque, praesentium voluptates maxime aperiam, neque minus et!",
+    "title_item_three": "Sin limites",
+    "text_item_three": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius delectus odio fuga ducimus laboriosam at explicabo aut assumenda eligendi vitae eveniet cumque, praesentium voluptates maxime aperiam, neque minus et!"
   }
 }
