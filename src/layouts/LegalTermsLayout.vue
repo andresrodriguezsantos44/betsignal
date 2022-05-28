@@ -1,19 +1,17 @@
 <template>
-  <h1>Legal Terms</h1>
-  
-  <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/privacy-policy">Policy Privacy</RouterLink>
-    <RouterLink to="/terms-conditions">Terms Conditions</RouterLink>
-  </nav>
-
+  <NavbarLegalTerms />
   <RouterView />
 </template>
 
 <script>
-import { RouterView, RouterLink } from 'vue-router'
+import { RouterView } from 'vue-router'
+
+import NavbarLegalTerms from '../components/LegalTerms/NavbarLegalTerms/index.vue'
 
 export default {
-  name: 'LegalTermsLayout'
+  name: 'LegalTermsLayout',
+  components: {
+    NavbarLegalTerms
+  }
 }
 </script>
