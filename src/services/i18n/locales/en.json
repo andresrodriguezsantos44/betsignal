@@ -53,5 +53,8 @@
     "text_item_two": "Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque, praesentium voluptates maxime aperiam, neque minus et!",
     "title_item_three": "Unlimited",
     "text_item_three": "Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque, praesentium voluptates maxime aperiam, neque minus et!"
+  },
+  "testimonials": {
+    "title": "Testimonials"
   }
 }
