@@ -159,6 +159,10 @@
   margin-bottom: 2rem;
 }
 
+.mr-1 {
+  margin-right: .5rem;
+}
+
 /* position */
 .position-absolute {
   position: absolute;
@@ -200,6 +204,10 @@
 
 .align-items-center {
   align-items: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
 }
 
 .justify-content-center {

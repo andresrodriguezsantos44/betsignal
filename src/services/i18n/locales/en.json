@@ -33,5 +33,14 @@
     "text_card_three": "Trade Bitcoin, Ethereum, USDT and other altcoins using our cryptocurrency trading platform",
     "title_card_four": "start trading",
     "text_card_four": "Trade Bitcoin, Ethereum, USDT and other altcoins using our cryptocurrency trading platform"
+  },
+  "why_we": {
+    "title": "Why we?",
+    "subtitle_one": "We have everything you need to get started",
+    "subtitle_two": "to operate",
+    "text": "The Bitcoin and cryptocurrency markets have seen a surge in volume recently, making it an exciting time to become a trader.",
+    "item_one": "Top trading platform",
+    "item_two": "Secure payments",
+    "item_three": "Easy to start trading"
   }
 }
