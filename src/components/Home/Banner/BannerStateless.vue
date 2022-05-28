@@ -1,5 +1,5 @@
 <template>
-  <section class="banner-stateless d-flex alignt-items-center justify-content-center p-4">
+  <section class="d-flex alignt-items-center justify-content-center p-4">
     <div :class="`d-flex alignt-items-center justify-content-center flex-column ${ isMobile ? 'full-width' : 'middle-width' }`">
       <h1 class="h1 text-left color-light mb-3">
         {{ $t('banner.title_one') }} <span class="h1 color-secondary">{{ $t('banner.title_two') }}</span> {{ $t('banner.title_three') }}
@@ -33,13 +33,6 @@ export default {
 </script>
 
 <style>
-.banner-stateless {
-  background-image: url('../../../assets/images/banner/bitcoin.png');
-  background-repeat: no-repeat;
-  background-size: 20rem;
-  background-position: 2rem 1rem;
-}
-
 .cripto-logo {
   width: 8rem;
 }

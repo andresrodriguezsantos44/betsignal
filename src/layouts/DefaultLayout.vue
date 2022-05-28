@@ -26,6 +26,11 @@ export default {
 .default-layout {
   width: 100%;
   margin: auto;
+
+  background-image: url('../assets/images/background/bitcoin.png'), url('../assets/images/background/tether.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20rem, 20rem;
+  background-position: 2% 4rem, 98% 45rem;
 }
 
 @media (min-width: 1024px) {
