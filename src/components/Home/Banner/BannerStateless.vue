@@ -1,10 +1,10 @@
 <template>
   <section class="banner-stateless d-flex alignt-items-center justify-content-center p-4">
-    <div :class="`d-flex alignt-items-center justify-content-center flex-colum ${ isMobile ? 'full-width' : 'middle-width' }`">
-      <h1 class="title text-left color-light mb-3">
-        {{ $t('banner.title_one') }} <span class="title color-secondary">{{ $t('banner.title_two') }}</span> {{ $t('banner.title_three') }}
+    <div :class="`d-flex alignt-items-center justify-content-center flex-column ${ isMobile ? 'full-width' : 'middle-width' }`">
+      <h1 class="h1 text-left color-light mb-3">
+        {{ $t('banner.title_one') }} <span class="h1 color-secondary">{{ $t('banner.title_two') }}</span> {{ $t('banner.title_three') }}
       </h1>
-      <p class="subtitle color-light mb-4">
+      <p class="h3 color-light mb-4">
         {{ $t('banner.text') }}
       </p>
 

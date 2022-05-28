@@ -13,11 +13,11 @@
         <img src="../../../assets/icons/navbar/close.svg" alt="icon-close" class="icon-close cursor-pointer" @click="handleShowNavbar()" />
       </div>
 
-      <RouterLink to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.what_we_do') }}</RouterLink>
-      <RouterLink to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.how_does_it_work') }}</RouterLink>
-      <RouterLink to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.why_we') }}</RouterLink>
-      <RouterLink to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.payments') }}</RouterLink>
-      <RouterLink to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.contact_us') }}</RouterLink>
+      <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#whatDo' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.what_we_do') }}</RouterLink>
+      <RouterLink @click="isMobile && handleShowNavbar()" to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.how_does_it_work') }}</RouterLink>
+      <RouterLink @click="isMobile && handleShowNavbar()" to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.why_we') }}</RouterLink>
+      <RouterLink @click="isMobile && handleShowNavbar()" to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.payments') }}</RouterLink>
+      <RouterLink @click="isMobile && handleShowNavbar()" to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.contact_us') }}</RouterLink>
 
       <!-- <RouterLink to="/legal-terms">{{ $t('home_navbar.legal_terms') }}</RouterLink>
       <LanguageSwitcher /> -->
