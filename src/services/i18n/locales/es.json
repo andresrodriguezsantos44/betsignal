@@ -6,5 +6,11 @@
     "payments": "Pagos",
     "contact_us": "Contáctenos",
     "legal_terms": "Términos legales"
+  },
+  "banner": {
+    "title_one": "Acceso instantáneo a la",
+    "title_two": "INVERSIÓN,",
+    "title_three": "en cualquier momento y en cualquier lugar",
+    "text": "Opere con Bitcoin, Ethereum, USDT y otras monedas alternativas utilizando nuestra aplicación de comercio de criptomonedas"
   }
 }

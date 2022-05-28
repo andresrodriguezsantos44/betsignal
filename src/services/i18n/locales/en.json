@@ -6,5 +6,11 @@
     "payments": "Payments",
     "contact_us": "Contact us",
     "legal_terms": "Legal terms"
+  },
+  "banner": {
+    "title_one": "Instant access to",
+    "title_two": "INVESTMENT,",
+    "title_three": "anytime, anywhere",
+    "text": "Trade Bitcoin, Ethereum, USDT and other altcoins using our cryptocurrency trading app"
   }
 }
