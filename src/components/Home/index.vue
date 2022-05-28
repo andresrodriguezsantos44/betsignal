@@ -1,28 +1,30 @@
 <template>
-  <div>
-    <div>
-      <LanguageSwitcher />
-    </div>
-
-    <div>
-      {{ $t('home.title') }}
-    </div>
-  </div>
+  <Banner />
+  <WhatDo />
+  <HowWork />
+  <WhyWe />
+  <Payments />
+  <Testimonials />
 </template>
 
 <script>
-import { useI18n } from 'vue-i18n'
-
-import LanguageSwitcher from '../Global/LanguageSwitcher/index.vue'
+import Banner from './Banner/index.vue'
+import WhatDo from './WhatDo/index.vue'
+import HowWork from './HowWork/index.vue'
+import WhyWe from './WhyWe/index.vue'
+import Payments from './Payments/index.vue'
+import Testimonials from './Testimonials/index.vue'
 
 export default {
   name: 'Home',
-  // setup() {
-  //   const { t } = useI18n()
-  //   return { t }
-  // },
+
   components: {
-    LanguageSwitcher
+    Banner,
+    WhatDo,
+    HowWork,
+    WhyWe,
+    Payments,
+    Testimonials
   }
 }
 </script>

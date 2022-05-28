@@ -1,17 +1,19 @@
 <template>
-  <h1>Default</h1>
-
-  <nav>
-    <RouterLink to="/legal-terms">Legal Terms</RouterLink>
-  </nav>
-
+  <Navbar />
   <router-view></router-view>
+  <Footer />
 </template>
 
 <script>
-import { RouterView } from 'vue-router'
+import Navbar from '../components/Home/Navbar/index.vue'
+import Footer from '../components/Home/Footer/index.vue'
 
 export default {
-  name: 'DefaultLayout'
+  name: 'DefaultLayout',
+  
+  components: {
+    Navbar,
+    Footer
+  }
 }
 </script>
