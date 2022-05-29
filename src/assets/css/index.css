@@ -277,9 +277,13 @@
   color: var(--gray-color)
 }
 
-/* background */
+/* backgrounds */
 .bg-primary {
   background-color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
 }
 
 /* text format */

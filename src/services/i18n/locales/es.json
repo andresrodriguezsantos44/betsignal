@@ -56,5 +56,8 @@
   },
   "testimonials": {
     "title": "Testimonios"
+  },
+  "footer": {
+    "text": "RESERVADOS TODOS LOS DERECHOS"
   }
 }
