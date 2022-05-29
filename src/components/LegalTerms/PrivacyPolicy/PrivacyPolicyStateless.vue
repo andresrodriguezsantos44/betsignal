@@ -1,6 +1,6 @@
 <template>
   <section class="d-flex align-items-center flex-column">
-    <img src="../../../assets/images/privacyPolicy/privacy-policy.png" alt="privacy policy" class="width-5 mb-4" />
+    <img src="../../../assets/images/privacyPolicy/privacy-policy.png" alt="privacy policy" :class="`${ isMobile ? 'width-7' : 'width-5' } mb-4`" />
     <p class="h1 color-secondary mb-4">{{ $t('privacy_policy.title') }}</p>
     <p class="p-regular color-gray mb-2">{{ $t('privacy_policy.text_one') }}</p>
     <p class="p-regular color-gray mb-2">{{ $t('privacy_policy.text_two') }}</p>

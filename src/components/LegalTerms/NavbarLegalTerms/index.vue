@@ -20,6 +20,7 @@ export default {
   },
 
   data: () => ({
+    initHandleNavbar: false,
     isMobile: false,
     showNavbar: true,
     buttons: [
@@ -54,10 +55,13 @@ export default {
           active: button.route === routeSelected ? true : false
         }
       })
-      this.isMobile && this.handleShowNavbar()
+      if(this.initHandleNavbar) {
+        this.isMobile && this.handleShowNavbar()
+      }
     },
 
     handleShowNavbar() {
+      this.initHandleNavbar = true
       this.showNavbar = !this.showNavbar
     }
   }
