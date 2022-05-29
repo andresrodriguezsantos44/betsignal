@@ -9,7 +9,7 @@
         <img src="../../../assets/images/testimonials/christian_ford.png" alt="Christian Ford" class="testimonials__avatar"/>
         <p class="p-bold mb-1 pl-4">Christian Ford</p>
         <p class="color-gray mb-2 pl-4">Firefighter</p>
-        <p class="p-smal-regular color-gray mb-1">Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque</p>
+        <p class="p-small-regular color-gray mb-1">Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque</p>
         <div class="d-flex align-items-center justify-content-between">
           <div>
             <img src="../../../assets/icons/testimonials/star.svg" alt="star" class="testimonials__star"/>
@@ -19,7 +19,7 @@
             <img src="../../../assets/icons/testimonials/star.svg" alt="star" class="testimonials__star"/>
           </div>
 
-          <p class="p-smal-regular color-gray">5.0 review</p>
+          <p class="p-small-regular color-gray">5.0 review</p>
         </div>
       </div>
 
@@ -27,7 +27,7 @@
         <img src="../../../assets/images/testimonials/andrea_diaz.png" alt="Andrea Diaz" class="testimonials__avatar"/>
         <p class="p-bold mb-1 pl-4">Andrea Diaz</p>
         <p class="color-gray mb-2 pl-4">Teacher</p>
-        <p class="p-smal-regular color-gray mb-1">Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque</p>
+        <p class="p-small-regular color-gray mb-1">Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque</p>
         <div class="d-flex align-items-center justify-content-between">
           <div>
             <img src="../../../assets/icons/testimonials/star.svg" alt="star" class="testimonials__star"/>
@@ -37,7 +37,7 @@
             <img src="../../../assets/icons/testimonials/star.svg" alt="star" class="testimonials__star"/>
           </div>
 
-          <p class="p-smal-regular color-gray">5.0 review</p>
+          <p class="p-small-regular color-gray">5.0 review</p>
         </div>
       </div>
     </div>

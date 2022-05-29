@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer bg-secondary color-light">
+  <footer class="p-small-regular footer bg-secondary color-light">
     COPYRIGHT 2022 BETSIGNAL. {{ $t('footer.text') }}
   </footer>
 </template>
