@@ -193,6 +193,10 @@
   margin-right: 2rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 /* position */
 .position-absolute {
   position: absolute;

@@ -20,7 +20,9 @@ export default {
 
 <style>
 .legal-terms-layout{
+  height: 100vh;
   padding: 2rem 4rem 2rem 19rem;
+  overflow: auto;
 }
 
 @media (max-width: 767px) {
