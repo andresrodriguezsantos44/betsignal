@@ -1,6 +1,8 @@
 <template>
-  <NavbarLegalTerms />
-  <RouterView />
+  <div class="legal-terms-layout">
+    <NavbarLegalTerms />
+    <RouterView />
+  </div>
 </template>
 
 <script>
@@ -15,3 +17,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.legal-terms-layout{
+  padding: 2rem 4rem 2rem 19rem;
+}
+</style>

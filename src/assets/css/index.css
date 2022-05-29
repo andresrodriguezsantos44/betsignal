@@ -329,13 +329,30 @@
   width: 3rem;
 }
 
-/* link */
+/* links */
 .link {
   color: var(--light-color);
   text-decoration: none;
   text-transform: uppercase;
   font-family: Font-Medium;
   font-size: .9rem;
+}
+
+.link-two {
+  color: var(--light-color);
+  width: 100%;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: Font-Medium;
+  font-size: .9rem;
+}
+
+.link-two-active {
+  background-color: var(--secondary-color);
 }
 
 /* icon close */

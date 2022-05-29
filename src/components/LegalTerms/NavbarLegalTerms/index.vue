@@ -1,15 +1,21 @@
 <template>
-  <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/privacy-policy">Policy Privacy</RouterLink>
-    <RouterLink to="/terms-conditions">Terms Conditions</RouterLink>
-  </nav>
+  <NavbarLegalTermsStateless :navigateToHome="navigateToHome" />
 </template>
 
 <script>
-import { RouterLink } from 'vue-router'
+import NavbarLegalTermsStateless from './NavbarLegalTermsStateless.vue'
 
 export default {
-  name: 'NavbarLegalTerms'
+  name: 'NavbarLegalTerms',
+
+  components: {
+    NavbarLegalTermsStateless
+  },
+
+  methods: {
+    navigateToHome() {
+      this.$router.push('/')
+    }
+  }
 }
 </script>
