@@ -62,5 +62,17 @@
   },
   "footer": {
     "text": "RESERVADOS TODOS LOS DERECHOS"
+  },
+  "navbar_legal_terms": {
+    "privacy_policy": "Política de privacidad",
+    "terms_conditions": "Terminos y condiciones"
+  },
+  "privacy_policy": {
+    "title": "Políticas de privacidad",
+    "text_one": "BETSIGNAL respeta su privacidad y se compromete a proteger y respetar sus datos personales. Esta política de privacidad tiene como objetivo brindarle información sobre cómo recopilamos y procesamos cualquier dato personal, es decir, información sobre un Cliente (como se deﬁne a continuación) que es una persona física sobre la base de la cual se puede identiﬁcar a ese Cliente (en adelante, los datos ) de acuerdo con la legislación aplicable en materia de protección de datos y las mejores prácticas.",
+    "text_two": "Nos esforzamos por crear la infraestructura más segura de cualquier corredor en el mundo. En esta política de privacidad, nos gustaría decirle por qué puede conﬁarnos sus datos y estar seguro de que sus datos están seguros.",
+    "text_three": "Es importante que lea esta política de privacidad junto con cualquier otra política de privacidad que podamos proporcionar en ocasiones especíﬁcas cuando recopilamos o procesamos sus datos para que sepa cómo y por qué los usamos.",
+    "text_four": "En esta Política de privacidad, a menos que el contexto requiera lo contrario, las expresiones aquí deﬁnidas tendrán el signiﬁcado que se les atribuye en los Términos y condiciones .",
+    "text_five": "Tenga en cuenta que esta Política de privacidad está dirigida a Clientes y clientes potenciales. Si usted es un empleado de BETSIGNAL, un contratista de BETSIGNAL o un proveedor de servicios externo, su información personal se utilizará en relación con su contrato de trabajo, su relación contractual o de acuerdo con nuestras políticas separadas que están disponibles poniéndose en contacto con nosotros en el datos de contacto enumerados en la sección NUESTROS DETALLES DE CONTACTO a continuación."
   }
 }

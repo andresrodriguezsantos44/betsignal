@@ -17,7 +17,7 @@
         :class="button.active ? 'link-two link-two-active' : 'link-two'"
         @click="setRouteSelected(button.route)"
       >
-        {{ button.text }}
+        {{ $t(`navbar_legal_terms.${ button.text }`) }}
       </RouterLink>
     </nav>
   </section>

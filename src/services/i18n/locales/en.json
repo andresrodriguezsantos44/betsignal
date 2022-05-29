@@ -62,5 +62,17 @@
   },
   "footer": {
     "text": "ALL RIGHTS RESERVED"
+  },
+  "navbar_legal_terms": {
+    "privacy_policy": "Privacy policy",
+    "terms_conditions": "Terms and conditions"
+  },
+  "privacy_policy": {
+    "title": "Privacy policies",
+    "text_one": "BETSIGNAL respects your privacy and is committed to protecting and respecting your personal data. This privacy policy is intended to provide you with information on how we collect and process any personal data, i.e. information about a Client (as defined below) that is a natural person on the basis of which that Client can be identiﬁed ( hereinafter, the data) in accordance with the applicable legislation on data protection and best practices.",
+    "text_two": "We strive to create the most secure infrastructure of any broker in the world. In this privacy policy, we would like to tell you why you can trust us with your data and rest assured that your data is safe.",
+    "text_three": "It is important that you read this privacy policy together with any other privacy policies we may provide on specific occasions when we collect or process your data so that you are aware of how and why we use it.",
+    "text_four": "In this Privacy Policy, unless the context requires otherwise, expressions defined herein shall have the meanings ascribed to them in the Terms and Conditions.",
+    "text_five": "Please note that this Privacy Policy is directed at Clients and potential clients. If you are a BETSIGNAL employee, a BETSIGNAL contractor or a third party service provider, your personal information will be used in connection with your employment contract, your contractual relationship or in accordance with our separate policies which are available by contacting us. at the contact details listed in the OUR CONTACT DETAILS section below."
   }
 }
