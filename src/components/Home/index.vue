@@ -5,6 +5,7 @@
   <WhyWe />
   <Payments />
   <Testimonials />
+  <ContactUs />
 </template>
 
 <script>
@@ -14,6 +15,7 @@ import HowWork from './HowWork/index.vue'
 import WhyWe from './WhyWe/index.vue'
 import Payments from './Payments/index.vue'
 import Testimonials from './Testimonials/index.vue'
+import ContactUs from './ContactUs/index.vue'
 
 export default {
   name: 'Home',
@@ -24,7 +26,8 @@ export default {
     HowWork,
     WhyWe,
     Payments,
-    Testimonials
+    Testimonials,
+    ContactUs
   }
 }
 </script>

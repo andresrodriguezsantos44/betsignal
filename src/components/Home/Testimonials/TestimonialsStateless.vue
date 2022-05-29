@@ -60,7 +60,7 @@ export default {
 <style>
 .testimonials__card {
   background-color: white;
-  padding: 2rem;
+  padding: 1rem 2rem;
   border-radius: 1rem;
   width: 45%;
   -webkit-box-shadow: 0px 0px 14px 1px rgba(255,255,255,1);

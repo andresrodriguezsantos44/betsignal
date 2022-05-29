@@ -17,7 +17,7 @@
       <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#howWork' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.how_does_it_work') }}</RouterLink>
       <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#whyWe' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.why_we') }}</RouterLink>
       <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#payments' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.payments') }}</RouterLink>
-      <RouterLink @click="isMobile && handleShowNavbar()" to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.contact_us') }}</RouterLink>
+      <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#contact' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.contact_us') }}</RouterLink>
       
       <!-- <RouterLink to="/legal-terms">{{ $t('home_navbar.legal_terms') }}</RouterLink>
       <LanguageSwitcher /> -->
