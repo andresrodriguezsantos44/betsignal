@@ -1,8 +1,15 @@
 <template>
   <section class="navbar-legal-terms bg-primary py-4 px-2">
-    <img src="../../../assets/images/logos/logo.png" alt="logo" class="logo mb-4 cursor-pointer" @click="navigateToHome()" />
+    <div :class="`d-flex align-items-center justify-content-between ${ !isMobile && 'mb-4' }`">
+      <img v-if="isMobile && !showNavbar" src="../../../assets/icons/navbar/menu.svg" alt="menu" class="icon-menu cursor-pointer" @click="handleShowNavbar()" />
+      <img v-if="isMobile && showNavbar" src="../../../assets/icons/navbar/close.svg" alt="close" class="icon-close cursor-pointer" @click="handleShowNavbar()" />
+      <img src="../../../assets/images/logos/logo.png" alt="logo" class="logo cursor-pointer" @click="navigateToHome()" />
+    </div>
 
-    <nav class="d-flex align-items-center justify-content-center flex-column">
+    <nav
+      v-if="showNavbar"
+      :class="`bg-primary navbar-legal-terms__links d-flex align-items-center justify-content-${ isMobile ? 'start' : 'center' } flex-column ${ isMobile && 'p-4' }`"
+    >
       <RouterLink
         v-for="(button, i) in buttons"
         :key="i"
@@ -23,39 +30,29 @@ export default {
   name: 'NavbarLegalTerms',
 
   props: {
+    isMobile: {
+      type: Boolean,
+      required: true
+    },
+    showNavbar: {
+      type: Boolean,
+      required: true
+    },
+    buttons: {
+      type: Array,
+      required: true
+    },
     navigateToHome: {
       type: Function,
       required: true
-    }
-  },
-
-  data: () => ({
-    buttons: [
-      {
-        text: 'privacy_policy',
-        active: false,
-        route: '/privacy-policy'
-      },
-      {
-        text: 'terms_conditions',
-        active: false,
-        route: '/terms-conditions'
-      }
-    ]
-  }),
-
-  mounted() {
-    this.setRouteSelected(this.$route.path)
-  },
-
-  methods: {
-    setRouteSelected(routeSelected) {
-      this.buttons = this.buttons.map(button => {
-        return {
-          ...button,
-          active: button.route === routeSelected ? true : false
-        }
-      })
+    },
+    setRouteSelected: {
+      type: Function,
+      required: true
+    },
+    handleShowNavbar: {
+      type: Function,
+      required: true
     }
   }
 }
@@ -68,5 +65,21 @@ export default {
   left: 0;
   height: 100vh;
   width: 15rem;
+}
+
+@media (max-width: 767px) {
+  .navbar-legal-terms {
+    position: absolute;
+    height: 6rem;
+    width: 100%;
+  }
+
+  .navbar-legal-terms__links {
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    height: 832%;
+    width: 100%;
+  }
 }
 </style>

@@ -22,4 +22,10 @@ export default {
 .legal-terms-layout{
   padding: 2rem 4rem 2rem 19rem;
 }
+
+@media (max-width: 767px) {
+  .legal-terms-layout{
+    padding: 8rem 2rem 2rem 2rem;
+  }
+}
 </style>
