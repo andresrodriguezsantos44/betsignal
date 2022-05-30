@@ -1,8 +1,8 @@
 <template>
   <form>
-    <select v-model="locale" @change="switchLanguage($event)">
-      <option value="en">en</option>
-      <option value="es">es</option>
+    <select v-model="locale" class="language-switcher" @change="switchLanguage($event)">
+      <option  class="language-switcher-item" value="en">en</option>
+      <option  class="language-switcher-item" value="es">es</option>
     </select>
   </form>
 </template>

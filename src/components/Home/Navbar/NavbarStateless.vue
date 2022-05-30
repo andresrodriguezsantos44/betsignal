@@ -7,7 +7,7 @@
       <img src="../../../assets/images/logos/logo.png" alt="logo" class="logo" />
     </div>
 
-    <nav v-if="showNavbar" :class="isMobile && 'navbar'">
+    <nav v-if="showNavbar" :class="`d-flex align-items-center ${ isMobile && 'navbar' }`">
       <div v-if="isMobile" class="d-flex align-items-center justify-content-between full-width p-4">
         <img src="../../../assets/images/logos/logo.png" alt="logo" class="logo" />
         <img src="../../../assets/icons/navbar/close.svg" alt="icon-close" class="icon-close cursor-pointer" @click="handleShowNavbar()" />
@@ -18,10 +18,8 @@
       <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#whyWe' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.why_we') }}</RouterLink>
       <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#payments' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.payments') }}</RouterLink>
       <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#contact' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.contact_us') }}</RouterLink>
-      
       <RouterLink @click="isMobile && handleShowNavbar()" to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.legal_terms') }}</RouterLink>
-
-      <!-- <LanguageSwitcher /> -->
+      <LanguageSwitcher />
     </nav>
   </section>
 </template>

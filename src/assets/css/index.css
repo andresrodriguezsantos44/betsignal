@@ -411,6 +411,27 @@
   font-size: .8rem;
 }
 
+/* language switcher */
+.language-switcher {
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--light-color);
+  text-transform: uppercase;
+  font-family: Font-Medium;
+  font-size: .9rem;
+}
+
+.language-switcher-item {
+  background: var(--primary-color);
+  border: none;
+  outline: none;
+  color: var(--light-color);
+  text-transform: uppercase;
+  font-family: Font-Medium;
+  font-size: .9rem;
+}
+
 *,
 *::before,
 *::after {
