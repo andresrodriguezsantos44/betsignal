@@ -32,9 +32,9 @@ export default {
   background-position: 2% 4rem, 98% 45rem, 2% 70rem, 2% 60rem , 98% 77rem, 2% 135rem, 50% 130rem, 98% 140rem, 2% 170rem, 98% 180rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .default-layout {
-    width: 1024px;
+    width: 1200px;
     margin: auto;
   }
 }

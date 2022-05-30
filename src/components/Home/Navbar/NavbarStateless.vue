@@ -20,6 +20,11 @@
       <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#contact' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.contact_us') }}</RouterLink>
       <RouterLink @click="isMobile && handleShowNavbar()" to="/legal-terms" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.legal_terms') }}</RouterLink>
       <LanguageSwitcher />
+
+      <div :class="`d-flex align-itmes-center justify-content-center ${ isMobile && 'flex-column mt-4 width-7' }`">
+        <button :class="`button-secondary ${ isMobile ? 'mb-2' : 'mx-1' }`">{{ $t('home_navbar.register') }}</button>
+        <button :class="`button-primary ${ isMobile ? 'mb-2' : 'mx-1' }`">{{ $t('home_navbar.login') }}</button>
+      </div>
     </nav>
   </section>
 </template>
