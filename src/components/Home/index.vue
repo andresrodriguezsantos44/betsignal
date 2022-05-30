@@ -5,6 +5,7 @@
   <WhyWe />
   <Payments />
   <Testimonials />
+  <Videos />
   <ContactUs />
 </template>
 
@@ -15,6 +16,7 @@ import HowWork from './HowWork/index.vue'
 import WhyWe from './WhyWe/index.vue'
 import Payments from './Payments/index.vue'
 import Testimonials from './Testimonials/index.vue'
+import Videos from './Videos/index.vue'
 import ContactUs from './ContactUs/index.vue'
 
 export default {
@@ -27,6 +29,7 @@ export default {
     WhyWe,
     Payments,
     Testimonials,
+    Videos,
     ContactUs
   }
 }
