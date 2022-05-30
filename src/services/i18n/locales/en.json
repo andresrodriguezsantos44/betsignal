@@ -60,7 +60,10 @@
     "title": "Testimonials"
   },
   "contact": {
-    "title": "Contact us"
+    "title": "Contact us",
+    "form_title": "Sign up for email updates",
+    "input_placeholder": "Your email",
+    "button": "Subscribe"
   },
   "footer": {
     "text": "ALL RIGHTS RESERVED"

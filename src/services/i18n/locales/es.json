@@ -60,7 +60,10 @@
     "title": "Testimonios"
   },
   "contact": {
-    "title": "Contactanos"
+    "title": "Contactanos",
+    "form_title": "Regístrate para recibir actualizaciones por correo electrónico",
+    "input_placeholder": "Tu correo electrónico",
+    "button": "Suscribit"
   },
   "footer": {
     "text": "RESERVADOS TODOS LOS DERECHOS"

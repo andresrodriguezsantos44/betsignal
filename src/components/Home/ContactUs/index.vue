@@ -1,5 +1,9 @@
 <template>
-  <ContactUsStateless :isMobile="isMobile" />
+  <ContactUsStateless
+    :isMobile="isMobile"
+    :handleEmail="handleEmail"
+    :handleSubmit="handleSubmit"
+  />
 </template>
 
 <script>
@@ -13,11 +17,23 @@ export default {
   },
 
   data: () => ({
-    isMobile: false
+    isMobile: false,
+    email: ''
   }),
 
   created() {
     this.isMobile = window.innerWidth <= 767
-  }
+  },
+
+  methods: {
+    handleEmail(e) {
+      this.email = e.target.value
+    },
+
+    handleSubmit(e) {
+      e.preventDefault()
+      console.log('email => ', this.email)
+    }
+  },
 }
 </script>
