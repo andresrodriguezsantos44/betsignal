@@ -1,5 +1,5 @@
 <template>
-  <RegisterTypeStateless :switchLanguage="switchLanguage" :currentType="currentType" />
+  <RegisterTypeStateless :isMobile="isMobile" :switchLanguage="switchLanguage" :currentType="currentType" />
 </template>
 
 <script>
@@ -13,8 +13,13 @@ export default {
   },
 
   data: () => ({
+    isMobile: false,
     currentType: 'virtual'
   }),
+
+  created() {
+    this.isMobile = window.innerWidth <= 767
+  },
 
   methods: {
     switchLanguage (e) {

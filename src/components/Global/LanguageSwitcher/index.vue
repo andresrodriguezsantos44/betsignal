@@ -1,6 +1,6 @@
 <template>
   <form>
-    <select v-model="locale" class="language-switcher" @change="switchLanguage($event)">
+    <select v-model="locale" :class="`language-switcher ${ isMobile && 'my-2' }`" @change="switchLanguage($event)">
       <option  class="language-switcher-item" value="en">en</option>
       <option  class="language-switcher-item" value="es">es</option>
     </select>
@@ -14,6 +14,7 @@ import { LANGUAGE_SELECTED } from '../../../constants/localStorageConstants'
 
 export default {
   name: 'App',
+
   setup() {
     const { locale } = useI18n({
       inheritLocale: true
@@ -21,6 +22,15 @@ export default {
 
     return { locale }
   },
+
+  data: () => ({
+    isMobile: false
+  }),
+
+  created() {
+    this.isMobile = window.innerWidth <= 767
+  },
+
   methods: {
     switchLanguage (e) {
       e.preventDefault()
