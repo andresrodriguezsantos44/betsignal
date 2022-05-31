@@ -7,10 +7,10 @@
     <carousel :items-to-show="isMobile ? 1 : 2" class="custom-carousel">
       <slide index="1" class="custom-slide">
         <div class="testimonials__card">
-          <img src="../../../assets/images/testimonials/christian_ford.png" alt="Christian Ford" class="testimonials__avatar"/>
-          <p :class="`p-bold mb-1`">Christian Ford</p>
-          <p :class="`color-gray mb-2`">Firefighter</p>
-          <p class="p-small-regular color-gray mb-1">Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque</p>
+          <img src="https://storage.builderall.com//franquias/2/7055146/editor-html/9685481.png" alt="Tatiana galviz" class="testimonials__avatar"/>
+          <p :class="`p-bold mb-1`">Tatiana Galvis</p>
+          <p :class="`color-gray mb-2`">Administrator</p>
+          <p class="p-small-regular color-gray mb-1"> {{ $t('testimonials.text_one') }}</p>
           <div class="d-flex align-items-center justify-content-between">
             <div>
               <img src="../../../assets/icons/testimonials/star.svg" alt="star" class="testimonials__star"/>
@@ -27,10 +27,10 @@
 
       <slide index="2" class="custom-slide">
         <div class="testimonials__card">
-          <img src="../../../assets/images/testimonials/andrea_diaz.png" alt="Andrea Diaz" class="testimonials__avatar"/>
-          <p :class="`p-bold mb-1`">Andrea Diaz</p>
+          <img src="https://storage.builderall.com//franquias/2/7055146/editor-html/9685475.png" alt="Andrea Diaz" class="testimonials__avatar"/>
+          <p :class="`p-bold mb-1`">Juan Castro</p>
           <p :class="`color-gray mb-2`">Teacher</p>
-          <p class="p-small-regular color-gray mb-1">Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque</p>
+          <p class="p-small-regular color-gray mb-1">{{ $t('testimonials.text_two') }}</p>
           <div class="d-flex align-items-center justify-content-between">
             <div>
               <img src="../../../assets/icons/testimonials/star.svg" alt="star" class="testimonials__star"/>
@@ -47,10 +47,10 @@
 
       <slide index="3" class="custom-slide">
         <div class="testimonials__card">
-          <img src="../../../assets/images/testimonials/christian_ford.png" alt="Christian Ford" class="testimonials__avatar"/>
-          <p :class="`p-bold mb-1`">Christian Ford</p>
-          <p :class="`color-gray mb-2`">Firefighter</p>
-          <p class="p-small-regular color-gray mb-1">Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque</p>
+          <img src="https://storage.builderall.com//franquias/2/7055146/editor-html/9685479.png" alt="Christian Ford" class="testimonials__avatar"/>
+          <p :class="`p-bold mb-1`">Javier Pertuz</p>
+          <p :class="`color-gray mb-2`">Investor</p>
+          <p class="p-small-regular color-gray mb-1">{{ $t('testimonials.text_three') }}</p>
           <div class="d-flex align-items-center justify-content-between">
             <div>
               <img src="../../../assets/icons/testimonials/star.svg" alt="star" class="testimonials__star"/>
@@ -67,10 +67,10 @@
 
       <slide index="4" class="custom-slide">
         <div class="testimonials__card">
-          <img src="../../../assets/images/testimonials/andrea_diaz.png" alt="Andrea Diaz" class="testimonials__avatar"/>
-          <p :class="`p-bold mb-1`">Andrea Diaz</p>
-          <p :class="`color-gray mb-2`">Teacher</p>
-          <p class="p-small-regular color-gray mb-1">Lorem ipsum pain sit amet consectetur adipisicing elit. Quasi eius delectus odio fugue ducimus laboriosam at explicabo aut assumenda Elijandi vitae eveniet cumque</p>
+          <img src="https://storage.builderall.com//franquias/2/7055146/editor-html/9685476.png" alt="Andrea Diaz" class="testimonials__avatar"/>
+          <p :class="`p-bold mb-1`">Luz Ruiz</p>
+          <p :class="`color-gray mb-2`">Student</p>
+          <p class="p-small-regular color-gray mb-1">{{ $t('testimonials.text_four') }}</p>
           <div class="d-flex align-items-center justify-content-between">
             <div>
               <img src="../../../assets/icons/testimonials/star.svg" alt="star" class="testimonials__star"/>

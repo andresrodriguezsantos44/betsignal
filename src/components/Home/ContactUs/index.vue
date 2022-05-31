@@ -8,7 +8,7 @@
 
 <script>
 import ContactUsStateless from './ContactUsStateless.vue'
-
+import * as axios from "axios"
 export default {
   name: 'ContactUs',
 
@@ -32,7 +32,9 @@ export default {
 
     handleSubmit(e) {
       e.preventDefault()
-      console.log('email => ', this.email)
+      axios.post("https://betsignal.io/api/auth/subscription", {email: this.email}).then((result) => {
+        console.log(result);
+      });
     }
   },
 }

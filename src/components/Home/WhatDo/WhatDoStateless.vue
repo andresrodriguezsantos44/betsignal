@@ -2,17 +2,17 @@
   <section class="d-flex align-items-center justify-content-center flex-column p-4">
     <div :class="`p-4 d-flex align-items-center justify-content-between ${ isMobile && 'flex-column' } full-width mb-4`">
       <div class="what-do__card p-3 d-flex align-items-center justify-content-center flex-column">
-        <h2 class="h1 color-light">300+</h2>
+        <h2 class="h3 color-light">{{ $t('what_do.card_one_title') }}</h2>
         <p class="p-regular color-light">{{ $t('what_do.card_one') }}</p>
       </div>
 
       <div class="what-do__card p-3 d-flex align-items-center justify-content-center flex-column">
-        <h2 class="h1 color-light">30+</h2>
+        <h2 class="h3 color-light">{{ $t('what_do.card_two_title') }}</h2>
         <p class="p-regular color-light">{{ $t('what_do.card_two') }}</p>
       </div>
 
       <div class="what-do__card p-3 d-flex align-items-center justify-content-center flex-column">
-        <h2 class="h1 color-light">200k+</h2>
+        <h2 class="h3 color-light">{{ $t('what_do.card_three_title') }}</h2>
         <p class="p-regular color-light">{{ $t('what_do.card_three') }}</p>
       </div>
     </div>

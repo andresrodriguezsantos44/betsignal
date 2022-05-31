@@ -11,17 +11,17 @@
 
         <div class="d-flex align-items-center justify-content-center mb-1">
           <img src="../../../assets/icons/contact/address.svg" alt="address" class="contact__icon-contact mr-1" />
-          <p class="color-light">calle 89 no 85-25 av 117 sur</p>
+          <p class="color-light">Tenjin Business Center, Japan.</p>
         </div>
 
         <div class="d-flex align-items-center justify-content-center mb-1">
           <img src="../../../assets/icons/contact/email.svg" alt="email" class="contact__icon-contact mr-1" />
-          <p class="color-light">calle 89 no 85-25 av 117 sur</p>
+          <p class="color-light">support@betsignal.io</p>
         </div>
 
         <div class="d-flex align-items-center justify-content-center mb-1">
           <img src="../../../assets/icons/contact/phone.svg" alt="phone" class="contact__icon-contact mr-1" />
-          <p class="color-light">calle 89 no 85-25 av 117 sur</p>
+          <p class="color-light">+1 702 9641681</p>
         </div>
       </div>
     </div>
