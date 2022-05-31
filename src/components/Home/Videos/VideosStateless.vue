@@ -6,51 +6,19 @@
 
     <carousel :items-to-show="1" class="custom-carousel">
       <slide index="1" class="custom-slide">
-        <iframe
-          width="800"
-          height="450"
-          src="https://www.youtube.com/embed/UN66i-JWaWc"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aOMygca02LM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </slide>
 
       <slide index="2" class="custom-slide">
-        <iframe
-          width="800"
-          height="450"
-          src="https://www.youtube.com/embed/UN66i-JWaWc"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AiFGgObTJUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </slide>
 
       <slide index="3" class="custom-slide">
-        <iframe
-          width="800"
-          height="450"
-          src="https://www.youtube.com/embed/UN66i-JWaWc"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aTWSWSDwqqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </slide>
 
       <slide index="4" class="custom-slide">
-        <iframe
-          width="800"
-          height="450"
-          src="https://www.youtube.com/embed/UN66i-JWaWc"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JuJviszm2cU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </slide>
 
       <template #addons>
