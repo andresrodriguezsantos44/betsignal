@@ -18,7 +18,7 @@
       <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#whyWe' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.why_we') }}</RouterLink>
       <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#payments' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.payments') }}</RouterLink>
       <RouterLink @click="isMobile && handleShowNavbar()" :to="{ name: 'home', hash: '#contact' }" :class="`link ${ isMobile ? 'my-2' : 'mx-1' }`">{{ $t('home_navbar.contact_us') }}</RouterLink>
-      <RegisterType />
+<!--      <RegisterType />-->
       <LanguageSwitcher />
 
       <div :class="`d-flex align-itmes-center justify-content-center ${ isMobile && 'flex-column mt-4 width-7' }`">
@@ -66,11 +66,11 @@ export default {
     },
 
     handleRegister() {
-      console.log('REGISTER => ', this.registerType)
+      window.location.href = import.meta.env.VITE_DEMO
     },
 
     handleLogin() {
-      console.log('LOGIN => ', this.registerType)
+      window.location.href = import.meta.env.VITE_REAL
     }
   }
 }
